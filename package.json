@@ -1,14 +1,32 @@
 {
+  "name": "project-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "dev": "webpack serve",
+    "build": "webpack"
   },
-  "dependencies": {
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/COValhalla/project-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/COValhalla/project-boilerplate/issues"
+  },
+  "homepage": "https://github.com/COValhalla/project-boilerplate#readme",
+  "devDependencies": {
     "css-loader": "^6.7.1",
-    "mini-css-extract-plugin": "^2.6.1",
     "postcss": "^8.4.14",
     "postcss-loader": "^7.0.0",
+    "postcss-preset-env": "^7.7.2",
+    "style-loader": "^3.3.1",
     "tailwindcss": "^3.1.4",
     "webpack": "^5.73.0",
-    "webpack-cli": "^4.10.0"
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
   }
 }
