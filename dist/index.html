@@ -7,6 +7,42 @@
     <title>Webpack App</title>
   </head>
   <body>
+    <!-- Header -->
+    <section id="header" class="bg-blue-900">
+      <nav class="container mx-auto p-6">
+        <div class="flex items-center justify-between">
+          <div>
+            <h2 class="text-white text-4xl">Header Logo</h2>
+          </div>
+          <div class="space-x-12">
+            <a href="#" class="text-xl text-white">header link 1</a>
+            <a href="#" class="text-xl text-white">header link 2</a>
+            <a href="#" class="text-xl text-white">header link 3</a>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section id="content" class="bg-blue-900">
+      <div class="container flex p-6">
+        <div class="flex flex-col max-w-xl space-y-6">
+          <h1 class="text-white text-5xl">This website is awesome</h1>
+          <p class="text-cyan-100 text-lg">
+            This website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast.
+          </p>
+          <div>
+            <a
+              href="#"
+              class="rounded-md bg-blue-500 text-white p-2 px-6 hover:bg-gray-500"
+              >Sign Up</a
+            >
+          </div>
+        </div>
+        <div class="flex"><img src="" alt="" />test</div>
+      </div>
+    </section>
+
     <h1 class="text-4xl text-blue-700">My Webpack + Tailwind App</h1>
     <script src="bundle.js"></script>
   </body>
